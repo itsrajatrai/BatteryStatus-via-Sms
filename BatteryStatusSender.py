@@ -25,7 +25,7 @@ client = clx.xms.Client(service_plan_id='97ecb2c25dcd4177ae8c143e685b1764', toke
 
 create = clx.xms.api.MtBatchTextSmsCreate()
 create.sender = 'Hello'
-create.recipients = {'917011174007'}
+create.recipients = {'91 XXXX-XX-XXXX'}
 create.body = "Hello Rajat  \n"+"Your Laptop's \U0001f50b : "+str(battery.percent)+"%"+"\nHours Left \u231A :"\
               +str(convertTime(battery.secsleft))+"\n\U0001f64f Thanks "
 
