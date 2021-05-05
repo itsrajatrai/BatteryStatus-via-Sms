@@ -21,7 +21,7 @@ print("Battery left : ", convertTime(battery.secsleft))
 
 # Sends SMS
 
-client = clx.xms.Client(service_plan_id='97ecb2c25dcd4177ae8c143e685b1764', token='79218b1625504412a2f2d5928d59deb9')
+client = clx.xms.Client(service_plan_id='97ecb2c25dcd4177ae8c143e685b1764', token='79218b1625504412a2f2d5928d59deb9') # Unique for everyone
 
 create = clx.xms.api.MtBatchTextSmsCreate()
 create.sender = 'Hello'
